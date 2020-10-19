@@ -27,9 +27,9 @@ class PagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm){
     override fun getPageTitle(position: Int): CharSequence? {
         return when (position) {
             0 -> "Enter details"
-            1 -> "Two"
+            1 -> "Search and Update"
             else -> {
-                return "Three"
+                return "Display songs"
             }
 
         }

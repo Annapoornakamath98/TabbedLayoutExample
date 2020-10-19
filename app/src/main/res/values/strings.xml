@@ -10,4 +10,14 @@
     <string name="controls">Controls</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="enter_the_song_name">Enter the song name</string>
+    <string name="enter_the_movie_name">Enter the movie name</string>
+    <string name="enter_singer">Enter singer</string>
+    <string name="enter_duration_of_the_song">Enter duration of the song</string>
+    <string name="search">Search</string>
+    <string name="update">Update</string>
+    <string name="search_a_song">Search a song</string>
+    <string name="enter_the_singer_name">Enter the singer name</string>
+    <string name="done">Done</string>
+    <string name="hi">hi</string>
 </resources>

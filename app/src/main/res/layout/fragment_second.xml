@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#9FCFF4"
+    android:orientation="vertical"
     tools:context=".SecondFragment">
 
+    <EditText
+        android:id="@+id/searchSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_t"
+        android:hint="@string/search_a_song"
+        android:inputType="text"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_t"
+        android:background="@color/purple_200"
+        android:text="@string/search" />
+
+    <EditText
+        android:id="@+id/editUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_t"
+        android:hint="@string/enter_the_singer_name"
+        android:inputType="text"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_t"
+        android:background="@color/purple_200"
+        android:text="@string/update" />
+
     <TextView
+        android:id="@+id/displaySongs"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/second_fragment" />
+        android:layout_marginTop="@dimen/margin_t"
 
-</FrameLayout>
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>

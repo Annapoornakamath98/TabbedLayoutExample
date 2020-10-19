@@ -6,9 +6,46 @@
     android:background="#FFEB3B"
     tools:context=".FirstFragment">
 
-    <TextView
+    <EditText
+        android:id="@+id/edit1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_the_song_name"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="@string/enter_singer"
+        android:textSize="@dimen/text_size" />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:hint="@string/enter_the_movie_name"
+        android:textSize="@dimen/text_size" />
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:hint="@string/enter_duration_of_the_song"
+
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"
+        />
 
 </FrameLayout>
